@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Medevantage_Suite">
+	<listeners>
+		<listener class-name="com.medevantage.app.utility.ListenerTest"/>
+	</listeners>
+  <test thread-count="5" name="Medevantage_App">
+    <classes>
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
